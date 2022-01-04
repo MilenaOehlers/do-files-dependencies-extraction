@@ -1,0 +1,44 @@
+0_kind_load_data,7,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Brutto/hbru_2018.dta
+0_kind_load_data,9,append ,S:/DATA2/SOEP-IS/BIP 2018 Datenlieferung/Brutto/hbru_2018_BIP.dta
+0_kind_load_data,22,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18kind_0.dta
+0_kind_load_data,26,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Brutto/pbru_2018.dta
+0_kind_load_data,28,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/BIP 2018 Datenlieferung/Brutto/pbru_2018_BIP.dta
+0_kind_load_data,31,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18pbrutto.dta
+0_kind_load_data,34,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18kind_0.dta
+0_kind_load_data,35,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18pbrutto.dta
+0_kind_load_data,41,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/ppfad/ppfad2018.dta
+0_kind_load_data,46,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18kind_1.dta
+0_kind_load_data,52,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18kind_1.dta
+0_kind_load_data,88,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/iskind_zw.dta
+1_kindanzeiger,7,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18pbrutto.dta
+1_kindanzeiger,75,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/ppfad/ppfad2018.dta
+1_kindanzeiger,147,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18kind_x.dta
+1_kindanzeiger,152,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/DE/pgen.dta
+1_kindanzeiger,160,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18kind_pgen.dta
+1_kindanzeiger,163,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18kind_x.dta
+1_kindanzeiger,164,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is18kind_pgen.dta
+1_kindanzeiger,430,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/kind/kindanzeiger.dta
+2_kind_Vergleich_und_Label,8,use ,S:/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/kind/kind_long_de.dta
+2_kind_Vergleich_und_Label,11,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/2017.dta
+2_kind_Vergleich_und_Label,13,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/iskind_zw.dta
+2_kind_Vergleich_und_Label,14,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/kind/kindanzeiger.dta
+2_kind_Vergleich_und_Label,18,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/2017.dta
+2_kind_Vergleich_und_Label,52,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/DE/ppfad.dta
+2_kind_Vergleich_und_Label,108,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/DE/pbrutto.dta
+2_kind_Vergleich_und_Label,118,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/iskind_zw.dta
+2_kind_Vergleich_und_Label,119,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/kind/kindanzeiger.dta
+2_kind_Vergleich_und_Label,190,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/kind/kind.dta
+3_kind_long_de_en,5,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/DE/pbrutto.dta
+3_kind_long_de_en,7,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is_pbrutto_l.dta
+3_kind_long_de_en,12,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/kind/kind.dta
+3_kind_long_de_en,28,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/is_pbrutto_l.dta
+3_kind_long_de_en,33,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/DE/ppfad.dta
+3_kind_long_de_en,36,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/kidl_1.dta
+3_kind_long_de_en,54,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/kid.dta
+3_kind_long_de_en,55,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/kidl_1.dta
+3_kind_long_de_en,135,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/kidl_2.dta
+3_kind_long_de_en,141,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/kind/kidl_2.dta
+3_kind_long_de_en,143,save ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_122c_000001.tmp
+3_kind_long_de_en,149,append ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_122c_000001.tmp
+3_kind_long_de_en,151,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/kind/kind_long_de.dta
+3_kind_long_de_en,158,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/kind/kind_long_en.dta

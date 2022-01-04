@@ -1,0 +1,40 @@
+0_bioage_generation,23,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Netto/Inno18F_MA.dta
+0_bioage_generation,25,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_e1_is.dta
+0_bioage_generation,27,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_e1_is.dta
+0_bioage_generation,111,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/ppfad//ppfad2018.dta
+0_bioage_generation,117,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_für_preginfo.dta
+0_bioage_generation,120,use ,S:/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/p_l/IS17_p_l_de.dta
+0_bioage_generation,123,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/interviewinfo_old.dta
+0_bioage_generation,125,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Netto/Inno18F_PE.dta
+0_bioage_generation,126,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/BIP 2018 Datenlieferung/Netto/PB18_BIP.dta
+0_bioage_generation,133,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/interviewinfo_new.dta
+0_bioage_generation,135,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/interviewinfo_old.dta
+0_bioage_generation,136,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/interviewinfo_new.dta
+0_bioage_generation,137,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/interviewinfo.dta
+0_bioage_generation,139,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_für_preginfo.dta
+0_bioage_generation,140,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/interviewinfo.dta
+0_bioage_generation,190,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage1.dta
+0_bioage_generation,201,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Netto/Inno18F_MB.dta
+0_bioage_generation,202,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_e2_is.dta
+0_bioage_generation,204,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_e2_is.dta
+0_bioage_generation,222,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/ppfad//ppfad2018.dta
+0_bioage_generation,295,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage2.dta
+0_bioage_generation,301,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/BIP 2018 Datenlieferung/Netto/MC18_BIP.dta
+0_bioage_generation,302,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_e3_2018_BIP.dta
+0_bioage_generation,304,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Netto/Inno18F_MC.dta
+0_bioage_generation,305,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_e3_is.dta
+0_bioage_generation,307,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_e3_is.dta
+0_bioage_generation,308,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_e3_2018_BIP.dta
+0_bioage_generation,418,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/ppfad//ppfad2018.dta
+0_bioage_generation,424,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_e3_2018.dta
+0_bioage_generation,431,use ,S:/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/bioage/bioagel_2017.dta
+0_bioage_generation,432,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage1.dta
+0_bioage_generation,433,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage2.dta
+0_bioage_generation,434,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/bioage_e3_2018.dta
+0_bioage_generation,516,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/valuecheck.dta
+0_bioage_generation,520,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/valuecheck.dta
+0_bioage_generation,526,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/valuecheck.dta
+0_bioage_generation,531,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/valuesfixed.dta
+0_bioage_generation,537,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/bioage/valuesfixed.dta
+0_bioage_generation,569,save ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/bioage/bioage.dta
+0_bioage_generation,570,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/bioage.dta

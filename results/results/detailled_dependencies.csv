@@ -1,0 +1,68 @@
+this master,,master_biobirth,master_bioparen,master_bioparen,master_hgen,master_hgen,master_hgen_long,master_hgen_long,master_imputation,master_imputation,master_kind,master_kind,master_kind,master_partner,master_pgen,master_pgen,master_pgen_l,master_pgen_l,master_ppfad,master_ppfad,master_ppfad
+this subdo,,0_biobirth_basis,ISbiopar_00Prolog_Stata_Missings,ISbiopar_13outfile,13_h_gen_typhh_preparation,15_h_gen_typhh_problemfaelle,2_append_and_correct,3_h_gen_anzahlkind,1_dataset_h,2_equation_h,0_kind_load_data,1_kindanzeiger,2_kind_Vergleich_und_Label,1_variable_def,01_part1,09_p_gen_famstd_partnr_partz,00_preparation,13_count_check,0_ppfad_basis,1_ppfad_germborn_migback,2_ppfad_gebmo
+needs master,needs subdo,,,,,,,,,,,,,,,,,,,,
+master_bioage,0_bioage_generation,"[['0.0' 'nan']
+ ['27' '570']]",,,,,,,,,,,,,,,,,,,"[['0.71' 'nan']
+ ['336' '570']]"
+master_kind,1_kindanzeiger,"[['0.03' 'nan']
+ ['167' '430']]",,,,,,,,,,,,,,,,,,,
+master_partner,3_compare_decide,"[['0.05' 'nan']
+ ['200' '898']]",,,,,,,,,,,,,,"[['0.97' 'nan']
+ ['25' '898']]",,,,,
+master_pgen,29_save_data,"[['0.08' 'nan']
+ ['377' '77']]",,,,,,,,,,,,,,,"[['0.0' '0.19']
+ ['8' '77']]",,,,
+master_ppfad,4_ppfad_labels_eng,"[['0.09' 'nan']
+ ['391' '502']]","[['0.0' '0.52']
+ ['82' '502']]","[['1.0' '0.52']
+ ['7178' '502']]",,,,,,"[['0.72' 'nan']
+ ['157' '502']]",,,"[['0.58' 'nan']
+ ['52' '502']]","[['0.51' 'nan']
+ ['307' '502']]","[['0.39' 'nan']
+ ['210' '502']]",,,"[['1.0' '1.0']
+ ['12' '502']]",,,
+master_pgen_l,06_pgen_labels_de,,"[['0.0' '0.01']
+ ['87' '273']]",,,,,,"[['0.01' 'nan']
+ ['21' '273']]",,,"[['0.35' 'nan']
+ ['152' '273']]",,,,,,,,,
+master_biobirth,3d_biobirth_Corrections_Fathers,,"[['0.0' '0.13']
+ ['138' '1252']]",,,,,,,,,,,,,,,,,,"[['0.56' 'nan']
+ ['238' '1252']]"
+master_pbrutto_l,3_rest,,"[['0.01' '0.01']
+ ['143' '560']]",,,"[['0.96' 'nan']
+ ['13' '560']]",,"[['0.38' 'nan']
+ ['5' '560']]","[['0.02' 'nan']
+ ['27' '560']]",,,,"[['0.6' 'nan']
+ ['108' '560']]",,,,,,,"[['0.13' 'nan']
+ ['28' '560']]",
+master_p_l,4_p_labeling,,"[['0.01' '0.02']
+ ['149' '24']]",,,,,,"[['0.0' 'nan']
+ ['15' '24']]",,,,,,,,,"[['0.93' '0.04']
+ ['6' '24']]",,"[['0.14' 'nan']
+ ['88' '24']]",
+master_kind,2_kind_Vergleich_und_Label,,"[['0.01' '0.02']
+ ['156' '190']]",,,,,,,,,,,,,,,,,,
+master_bio,1_bio_labeling,,"[['0.01' '0.02']
+ ['162' '17']]",,,,,,,,,,,,,,,,,"[['0.13' 'nan']
+ ['38' '17']]",
+master_pgen_l,12_more_labels_en,,,"[['1.0' '0.01']
+ ['917' '69']]",,,,,,,,,,,,,,,,,
+master_ppfad,3_ppfad_Pruefungen_finalisieren,,,,"[['0.87' 'nan']
+ ['23' '293']]",,,,,,"[['0.19' 'nan']
+ ['41' '293']]",,,"[['0.52' 'nan']
+ ['328' '293']]",,,,,,,
+master_hgen,16_save_data,,,,,,"[['0.23' 'nan']
+ ['161' '33']]",,,,,,,,,,,,,,
+master_h_l,1_h_labeling,,,,,,"[['0.26' 'nan']
+ ['197' '23']]",,"[['0.55' 'nan']
+ ['554' '23']]",,,,,,,,,,,,
+master_hbrutto_l,5_save_data,,,,,,"[['0.37' 'nan']
+ ['462' '38']]",,"[['0.57' 'nan']
+ ['566' '38']]",,,,,,,,,,"[['0.13' 'nan']
+ ['1019' '38']]",,
+master_hgen_long,4_intermediate,,,,,,,,"[['0.56' 'nan']
+ ['560' '124']]",,,,,,,,,,,,
+master_ppfad,1_ppfad_germborn_migback,,,,,,,,,"[['0.7' 'nan']
+ ['134' '2165']]",,,,,,,,,,,
+master_kind,3_kind_long_de_en,,,,,,,,,,,,,,,,,,,"[['0.14' 'nan']
+ ['141' '158']]",

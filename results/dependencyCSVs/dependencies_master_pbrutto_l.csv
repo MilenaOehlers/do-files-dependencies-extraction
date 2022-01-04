@@ -1,0 +1,10 @@
+0_is_altpbrutto_sample,10,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Brutto/pbru_2018.dta
+0_is_altpbrutto_sample,47,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/pbrutto_l/pbru_2018_IS_W10_help.dta
+2_BIP_pbrutto_sample,9,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/BIP 2018 Datenlieferung/Brutto/pbru_2018_BIP.dta
+2_BIP_pbrutto_sample,48,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/pbrutto_l/pbru_2018_IS_BIP_help.dta
+3_rest,3,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata\DE/pbrutto.dta
+3_rest,4,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/pbrutto_l/pbru_2018_IS_W10_help.dta
+3_rest,6,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/pbrutto_l/pbru_2018_IS_BIP_help.dta
+3_rest,553,save ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_122c_000001.tmp
+3_rest,558,append ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_122c_000001.tmp
+3_rest,560,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/pbrutto_l/is_pbrutto_l_de.dta

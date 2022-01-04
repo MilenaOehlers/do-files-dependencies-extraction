@@ -1,0 +1,122 @@
+00_preparation,11,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/h.dta
+00_preparation,28,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_h_l_Z_ForGen.dta
+00_preparation,32,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA/soep32_de/stata/zhgen.dta
+00_preparation,38,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_h_l_Z_ForGen.dta
+00_preparation,54,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/zhgen_ForMerge.dta
+00_preparation,61,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/h.dta
+00_preparation,77,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_h2_BA_ForGen.dta
+00_preparation,81,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA/soep32_de/stata/bahgen.dta
+00_preparation,87,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_h2_BA_ForGen.dta
+00_preparation,104,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/bahgen_ForMerge.dta
+00_preparation,114,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/h.dta
+00_preparation,130,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_h2_BB_ForGen.dta
+00_preparation,134,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA/soep32_de/stata/bbhgen.dta
+00_preparation,140,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_h2_BB_ForGen.dta
+00_preparation,156,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/bbhgen_onlyE.dta
+00_preparation,162,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/h.dta
+00_preparation,178,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_h2_IS11_ForGen.dta
+00_preparation,183,use ,S:/DATA2/SOEP-IS/SOEP-IS Merge HiWi Project/datasets/finaldata/hgen/hgen.dta
+00_preparation,192,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_h2_IS11_ForGen.dta
+00_preparation,259,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/is_hgen_onlyI.dta
+00_preparation,265,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/bbhgen_onlyE.dta
+00_preparation,266,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/is_hgen_onlyI.dta
+00_preparation,269,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/bbhgen_ishgen_help.dta
+00_preparation,276,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/h.dta
+00_preparation,292,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS12_ForGen.dta
+00_preparation,297,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/hgen.dta
+00_preparation,306,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS12_ForGen.dta
+00_preparation,374,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen12_help.dta
+00_preparation,384,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/h.dta
+00_preparation,400,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS13_ForGen.dta
+00_preparation,405,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/hgen.dta
+00_preparation,414,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS13_ForGen.dta
+00_preparation,482,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen13_help.dta
+00_preparation,501,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/h.dta
+00_preparation,516,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS14_ForGen.dta
+00_preparation,520,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/hgen.dta
+00_preparation,529,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS14_ForGen.dta
+00_preparation,594,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen14_help.dta
+00_preparation,601,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/h.dta
+00_preparation,616,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS15_ForGen.dta
+00_preparation,618,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/hgen.dta
+00_preparation,627,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS15_ForGen.dta
+00_preparation,692,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen15_help.dta
+00_preparation,698,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/h.dta
+00_preparation,713,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS16_ForGen.dta
+00_preparation,715,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/hgen.dta
+00_preparation,724,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS16_ForGen.dta
+00_preparation,789,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen16_help.dta
+00_preparation,795,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/h.dta
+00_preparation,810,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS17_ForGen.dta
+00_preparation,812,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata/DE/hgen.dta
+00_preparation,821,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18merge_IS17_ForGen.dta
+00_preparation,886,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen17_help.dta
+00_preparation,892,use ,S:/DATA2/SOEP-IS/BIP 2018 Datenlieferung/Netto/H18_BIP.dta
+00_preparation,896,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/bip_for_hgen.dta
+00_preparation,898,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Netto/Inno18F_HH.dta
+00_preparation,900,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/bip_for_hgen.dta
+00_preparation,906,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS_h_18_gen.dta
+00_preparation,938,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/zhgen_ForMerge.dta
+00_preparation,939,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/bahgen_ForMerge.dta
+00_preparation,943,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba.dta
+00_preparation,950,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba.dta
+00_preparation,951,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/bbhgen_ishgen_help.dta
+00_preparation,956,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb.dta
+00_preparation,963,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb.dta
+00_preparation,964,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen12_help.dta
+00_preparation,969,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc.dta
+00_preparation,976,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc.dta
+00_preparation,977,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen13_help.dta
+00_preparation,982,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd.dta
+00_preparation,989,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd.dta
+00_preparation,990,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen14_help.dta
+00_preparation,994,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd_be.dta
+00_preparation,1000,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd_be.dta
+00_preparation,1001,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen15_help.dta
+00_preparation,1005,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd_be_bf.dta
+00_preparation,1010,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd_be_bf.dta
+00_preparation,1011,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen16_help.dta
+00_preparation,1015,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd_be_bf_bg.dta
+00_preparation,1021,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd_be_bf_bg.dta
+00_preparation,1022,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/ishgen17_help.dta
+00_preparation,1026,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd_be_bf_bg_bh.dta
+00_preparation,1032,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd_be_bf_bg_bh.dta
+00_preparation,1033,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS_h_18_gen.dta
+00_preparation,1037,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/merge_z_ba_bb_bc_bd_be_bf_bg_bh_bi.dta
+00_preparation,1044,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE1.dta
+00_preparation,1057,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE1.dta
+01_h_gen_cnstyr,60,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE1.dta
+01_h_gen_cnstyr,65,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Brutto/hbru_2018.dta
+01_h_gen_cnstyr,90,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE1.dta
+02_h_gen_moveyr,52,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE1.dta
+02_h_gen_moveyr,53,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Brutto/hbru_2018.dta
+02_h_gen_moveyr,67,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE1.dta
+11_h_gen_ahinc,17,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE2.dta
+12_h_gen_nuts1,11,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Brutto/hbru_2018.dta
+12_h_gen_nuts1,12,append ,S:/DATA2/SOEP-IS/BIP 2018 Datenlieferung/Brutto/hbru_2018_BIP.dta
+12_h_gen_nuts1,16,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hnr&bula_sta.dta
+12_h_gen_nuts1,19,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE2.dta
+12_h_gen_nuts1,20,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hnr&bula_sta.dta
+12_h_gen_nuts1,59,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE3.dta
+12_h_gen_nuts1,62,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE3.dta
+13_h_gen_typhh_preparation,15,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Brutto/pbru_2018.dta
+13_h_gen_typhh_preparation,16,append ,S:/DATA2/SOEP-IS/BIP 2018 Datenlieferung/Brutto/pbru_2018_BIP.dta
+13_h_gen_typhh_preparation,17,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_WORKFILE0.dta
+13_h_gen_typhh_preparation,19,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_WORKFILE0.dta
+13_h_gen_typhh_preparation,23,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/ppfad/ppfad2018.dta
+13_h_gen_typhh_preparation,24,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_WORKFILE1.dta
+13_h_gen_typhh_preparation,26,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_WORKFILE1.dta
+13_h_gen_typhh_preparation,27,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/ppfad/ppfad2018.dta
+13_h_gen_typhh_preparation,28,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_WORKFILE2.dta
+13_h_gen_typhh_preparation,30,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_WORKFILE2.dta
+13_h_gen_typhh_preparation,141,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_WORKFILE3.dta
+13_h_gen_typhh_preparation,143,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_WORKFILE3.dta
+14_h_gen_typhh_labeling,64,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_WORKFILE4.dta
+14_h_gen_typhh_labeling,66,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_WORKFILE4.dta
+14_h_gen_typhh_labeling,69,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_final.dta
+15_h_gen_typhh_problemfaelle,13,use ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/DE/pbrutto.dta
+16_save_data,2,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE3.dta
+16_save_data,3,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/typhhFORhgen_final.dta
+16_save_data,4,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE4.dta
+16_save_data,9,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hgen/IS18_hgen_WORKFILE4.dta
+16_save_data,33,save ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/hgen/IS18_hgen.dta

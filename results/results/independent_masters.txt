@@ -1,0 +1,4 @@
+The following masters do not depend on other masters.
+They are thus masters with which you would start each wave.
+
+master_h brutto_l master_h_l master_ibip_pupil master_ilanguage master_inno master_inno_h master_p brutto_l master_p_l

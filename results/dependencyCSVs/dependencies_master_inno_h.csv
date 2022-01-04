@@ -1,0 +1,14 @@
+0_inno_h_generation,6,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2015 W7 Rohdaten/Netto/PRH15_Inno.dta
+0_inno_h_generation,28,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2015 W7 Rohdaten/Netto/OS15_Inno.dta
+0_inno_h_generation,50,save ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_122c_000001.tmp
+0_inno_h_generation,56,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2017 W9 Rohdaten/Netto/Inno17F_PRE_HH.dta
+0_inno_h_generation,74,save ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_122c_000002.tmp
+0_inno_h_generation,81,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inno_h/PRH15_2015_IS
+0_inno_h_generation,83,merge ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_122c_000001.tmp
+0_inno_h_generation,84,merge ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_122c_000002.tmp
+0_inno_h_generation,118,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inno_h/inno_h1.dta
+0_inno_h_generation,121,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inno_h/inno_h1.dta
+0_inno_h_generation,128,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inno_h/inno_h_csvready.dta
+1_inno_h_labeling,9,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inno_h/inno_h_csvready.dta
+1_inno_h_labeling,19,save ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_122c_000001.tmp
+1_inno_h_labeling,24,append ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_122c_000001.tmp

@@ -1,0 +1,20 @@
+0_ilanguage_generation,42,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2016 Generierung HiWi/Data/finaldata/DE/inno.dta
+0_ilanguage_generation,91,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/helpdata/inno/SUI_2016_IS_F.dta
+0_ilanguage_generation,95,save ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_2668_000001.tmp
+0_ilanguage_generation,98,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/helpdata/inno/SK_2016_IS_F.dta
+0_ilanguage_generation,101,merge ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_2668_000001.tmp
+0_ilanguage_generation,118,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/ilanguage/ilanguage_wip2.dta
+0_ilanguage_generation,200,saveold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/ilanguage/ilanguage_wip2_2.dta
+0_ilanguage_generation,202,save ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_2668_000002.tmp
+0_ilanguage_generation,206,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2017 W9 Rohdaten/Netto/Inno17F_ISPRA-SI.dta
+0_ilanguage_generation,269,save ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_2668_000003.tmp
+0_ilanguage_generation,273,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2017 W9 Rohdaten/Online-Zusatzbefragung-Sprache/SOEP-Inno2017_Zusatzbefr_Sprache_Netto.dta
+0_ilanguage_generation,446,save ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_2668_000004.tmp
+0_ilanguage_generation,451,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/ilanguage/ilanguage_wip1.dta
+0_ilanguage_generation,452,merge ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_2668_000002.tmp
+0_ilanguage_generation,455,merge ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_2668_000003.tmp
+0_ilanguage_generation,457,merge ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_2668_000004.tmp
+0_ilanguage_generation,500,useold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/ilanguage/ilanguage_zusammen.dta
+1_ilanguage_labeling,9,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/ilanguage/ilanguage_csvready.dta
+1_ilanguage_labeling,11,save ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_2668_000001.tmp
+1_ilanguage_labeling,20,append ,H:/git/isdatadoku/MASTER/C:\Users\moehlers\AppData\Local\Temp\ST_2668_000001.tmp

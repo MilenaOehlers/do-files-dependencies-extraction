@@ -1,0 +1,86 @@
+0_is_altbrutto_sample,10,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Brutto/hbru_2018.dta
+0_is_altbrutto_sample,55,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_W10_zwischen.dta
+0_is_altbrutto_sample,62,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_W10_zwischen.dta
+0_is_altbrutto_sample,69,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/intv/intv_master_v35_is18.dta
+0_is_altbrutto_sample,80,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/intv/intv_master_v35_is18.dta
+0_is_altbrutto_sample,90,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_W10_intid.dta
+0_is_altbrutto_sample,93,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_W10_zwischen.dta
+0_is_altbrutto_sample,95,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_W10_intid.dta
+0_is_altbrutto_sample,97,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_W10_help.dta
+2_BIP_hbrutto_sample,9,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/BIP 2018 Datenlieferung/Brutto/hbru_2018_BIP.dta
+2_BIP_hbrutto_sample,53,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_BIP_zwischen.dta
+2_BIP_hbrutto_sample,59,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_BIP_zwischen.dta
+2_BIP_hbrutto_sample,65,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/intv/intv_master_v35_is18.dta
+2_BIP_hbrutto_sample,76,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/intv/intv_master_v35_is18.dta
+2_BIP_hbrutto_sample,86,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_BIP_intid.dta
+2_BIP_hbrutto_sample,89,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_BIP_zwischen.dta
+2_BIP_hbrutto_sample,91,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_BIP_intid.dta
+2_BIP_hbrutto_sample,93,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_BIP_help.dta
+3_choosename,1,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2017 Generierung HiWi/Data/finaldata\DE/hbrutto.dta
+3_choosename,55,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_W10_help.dta
+3_choosename,57,append ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_BIP_help.dta
+3_choosename,113,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/helpp1.dta
+4_is_regtype,23,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,29,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2018 W10 Rohdaten/Brutto/hbru_2018.dta
+4_is_regtype,38,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,44,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_W10_regtyp.dta
+4_is_regtype,48,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2017 W9 Rohdaten/Brutto/hbru_2017_Inno.dta
+4_is_regtype,57,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,63,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2017_IS_W9_regtyp.dta
+4_is_regtype,67,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2016 W8 Rohdaten/Brutto/hbru_2016_Inno.dta
+4_is_regtype,76,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,82,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2016_IS_W8_regtyp.dta
+4_is_regtype,86,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2016 Aufwuchs Rohdaten/Brutto/hbru16_InnoA.dta
+4_is_regtype,95,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,101,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2016_IS_AW_regtyp.dta
+4_is_regtype,105,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2015 W7 Rohdaten/Brutto/hbru15_Inno.dta
+4_is_regtype,114,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,120,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2015_IS_W7_regtyp.dta
+4_is_regtype,124,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2014 W6 Rohdaten/Brutto/hbru14_IS_F.dta
+4_is_regtype,133,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,139,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2014_IS_W6_regtyp.dta
+4_is_regtype,143,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2014 Aufwuchs Rohdaten/Brutto/hbru14_IS_A.dta
+4_is_regtype,152,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,158,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2014_IS_AW_regtyp.dta
+4_is_regtype,162,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2013 W5 Rohdaten/Brutto/hbru_2013_IS_F.dta
+4_is_regtype,171,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,177,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2013_IS_W5_regtyp.dta
+4_is_regtype,181,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2013 Aufwuchs Rohdaten/Brutto/hbru_2013_IS_A.dta
+4_is_regtype,190,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,196,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2013_IS_AW_regtyp.dta
+4_is_regtype,200,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2012 W4 Rohdaten/Brutto/hbru_2012_IS_W4.dta
+4_is_regtype,209,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,215,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2012_IS_W4_regtyp.dta
+4_is_regtype,219,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2012 Aufwuchs Rohdaten/Brutto/hbru_2012_IS_Aufwuchs.dta
+4_is_regtype,228,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,234,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2012_IS_AW_regtyp.dta
+4_is_regtype,238,use ,S:/DATA2/SOEP-IS/SOEP-IS data 2011 W3 Infratest-Rohdaten/Brutto/HBRU2011i.dta
+4_is_regtype,247,merge ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/inkar_indikatoren/regtyp.dta
+4_is_regtype,253,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2011_IS_W3_regtyp.dta
+4_is_regtype,259,use ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2012_IS_W4_regtyp.dta
+4_is_regtype,260,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2012_IS_AW_regtyp.dta
+4_is_regtype,261,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2012_IS_W4+AW_regtyp.dta
+4_is_regtype,263,use ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2013_IS_W5_regtyp.dta
+4_is_regtype,264,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2013_IS_AW_regtyp.dta
+4_is_regtype,265,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2013_IS_W5+AW_regtyp.dta
+4_is_regtype,267,use ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2014_IS_W6_regtyp.dta
+4_is_regtype,268,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2014_IS_AW_regtyp.dta
+4_is_regtype,269,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2014_IS_W6+AW_regtyp.dta
+4_is_regtype,271,use ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2016_IS_W8_regtyp.dta
+4_is_regtype,272,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2016_IS_AW_regtyp.dta
+4_is_regtype,273,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2016_IS_W8+AW_regtyp.dta
+4_is_regtype,275,use ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2011_IS_W3_regtyp.dta
+4_is_regtype,276,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2012_IS_W4+AW_regtyp.dta
+4_is_regtype,277,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2013_IS_W5+AW_regtyp.dta
+4_is_regtype,278,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2014_IS_W6+AW_regtyp.dta
+4_is_regtype,279,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2015_IS_W7_regtyp.dta
+4_is_regtype,280,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2016_IS_W8_regtyp.dta
+4_is_regtype,281,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2017_IS_W9_regtyp.dta
+4_is_regtype,282,append ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_2018_IS_W10_regtyp.dta
+4_is_regtype,289,saveold ,S:/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_IS_regtyp.dta
+5_save_data,1,use ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/helpp1.dta
+5_save_data,3,merge ,/hume/rdc-prod/distribution/soep-core/soep.v35/stata_de/hbrutto.dta
+5_save_data,5,merge ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/helpdata/hbrutto_l/hbru_IS_regtyp.dta
+5_save_data,36,save ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/hbrutto_l/is_hbrutto_l_de.dta
+5_save_data,37,saveold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata/hbrutto_l/is_hbrutto_l_de_saveold.dta
+5_save_data,38,saveold ,H:/git/isdatadoku/MASTER///hume/soep-data/DATA2/SOEP-IS/SOEP-IS 2018 Generierung HiWi/Data/finaldata\DE/hbrutto.dta
